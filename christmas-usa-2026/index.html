@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>圣诞节前过圣诞 · 美国东海岸13日</title>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="assets/trip-map-public.css">
+</head>
+<body>
+  <main class="trip-app" id="trip-app">
+    <aside class="planner-shell" aria-label="旅行计划">
+      <section id="trip-overview" class="overview-panel">
+        <header class="trip-header">
+          <div class="trip-eyebrow" id="trip-eyebrow">2026年12月11日—23日 · 美国东海岸</div>
+          <h1 class="trip-title" id="trip-title">圣诞节前过圣诞 · 美国东海岸13日</h1>
+          <p class="trip-summary" id="trip-summary"></p>
+          <div class="trip-stats" aria-label="旅行概览">
+            <div class="trip-stat"><strong id="trip-day-count">0</strong><span>旅行日</span></div>
+            <div class="trip-stat"><strong id="trip-place-count">0</strong><span>地点</span></div>
+            <div class="trip-stat"><strong id="trip-city-count">0</strong><span>城市</span></div>
+          </div>
+        </header>
+
+        <nav class="route-segments" aria-label="行程段快速定位">
+          <button type="button" data-segment-day="day-2"><strong>波士顿</strong><span>12/12–12/14</span></button>
+          <button type="button" data-segment-day="day-5"><strong>缅因州</strong><span>12/15–12/17</span></button>
+          <button type="button" data-segment-day="day-8"><strong>纽约</strong><span>12/18–12/20</span></button>
+          <button type="button" data-segment-day="day-10"><strong>费城＋华盛顿</strong><span>12/20–12/23</span></button>
+        </nav>
+
+        <section class="section-block" aria-labelledby="days-heading">
+          <div class="section-heading-row"><div><div class="section-kicker">先看路线骨架</div><h2 class="section-title" id="days-heading">每日路线</h2></div></div>
+          <div class="day-list" id="day-list"></div>
+        </section>
+
+        <section class="section-block" aria-labelledby="quick-heading">
+          <div class="section-heading-row"><div><div class="section-kicker">再浏览完整候选</div><h2 class="section-title" id="quick-heading">地点速查</h2></div></div>
+          <div class="filter-grid">
+            <input class="filter-control search-control" id="quick-search" type="search" data-filter-field="search" placeholder="搜索地点、街区或说明" aria-label="搜索地点">
+            <select class="filter-control" id="filter-city" data-filter-field="city" aria-label="按城市筛选"></select>
+            <select class="filter-control" id="filter-category" data-filter-field="category" aria-label="按类别筛选"></select>
+            <select class="filter-control" id="filter-priority" data-filter-field="priority" aria-label="按优先程度筛选"></select>
+            <select class="filter-control" id="filter-plan" data-filter-field="plan" aria-label="按行程归类筛选"></select>
+          </div>
+          <div class="quick-list-meta"><span id="quick-count">0 个地点</span><button class="text-button" id="clear-filters" type="button">清空筛选</button></div>
+          <div class="quick-list" id="quick-list"></div>
+        </section>
+      </section>
+
+      <section id="detail-browse" class="detail-browse" hidden>
+        <nav class="day-rail" id="day-rail" aria-label="按日期切换行程"></nav>
+        <section class="day-list-panel" id="day-place-list" aria-label="当天安排"></section>
+        <article class="poi-detail" id="poi-detail" aria-live="polite"></article>
+      </section>
+
+      <section class="change-summary" id="change-summary" hidden aria-live="polite">
+        <div class="change-heading"><div><h2>行程需要重新整理</h2><p id="change-summary-text"></p></div></div>
+        <div class="change-actions">
+          <button class="text-button" id="undo-change" type="button">撤销上一步</button>
+          <button class="text-button primary" id="request-replan" type="button">请 Codex 重新安排</button>
+        </div>
+      </section>
+    </aside>
+
+    <section class="map-stage" aria-label="地图区域">
+      <div id="map" aria-label="旅行地图"></div>
+      <div class="map-note" id="map-note" aria-live="polite"></div>
+      <div class="map-legend" aria-label="地图说明"><span><i class="legend-dot current"></i>当天安排</span><span><i class="legend-dot other"></i>其他日期</span><span><i class="legend-dot candidate"></i>尚未安排</span></div>
+    </section>
+  </main>
+
+  <section class="dialog-backdrop" id="impact-dialog" hidden role="dialog" aria-modal="true" aria-labelledby="impact-title">
+    <div class="dialog-panel">
+      <div class="dialog-heading"><div><div class="section-kicker">这次调整影响较大</div><h2 id="impact-title">确认后再保存</h2></div></div>
+      <p>请先确认这些影响：</p>
+      <ul id="impact-reasons"></ul>
+      <p class="muted">保存后会标记为“路线需要重新整理”，不会自动生成未经复核的新路线。</p>
+      <div class="dialog-actions"><button class="text-button" id="cancel-impact" type="button">取消</button><button class="text-button primary" id="confirm-impact" type="button">确认这次调整</button></div>
+    </div>
+  </section>
+
+  <section class="dialog-backdrop" id="replan-dialog" hidden role="dialog" aria-modal="true" aria-labelledby="replan-title">
+    <div class="dialog-panel">
+      <div class="dialog-heading"><div><div class="section-kicker">我的行程调整</div><h2 id="replan-title">请 Codex 重新安排</h2></div><button class="icon-button" id="close-replan" type="button" aria-label="关闭">×</button></div>
+      <p class="muted">下面的文字包含全部修改和受影响日期，可以直接发给 Codex。</p>
+      <textarea id="replan-text" readonly aria-label="重新安排行程请求"></textarea>
+      <div class="dialog-actions"><button class="text-button primary" id="copy-replan" type="button">复制给 Codex</button></div>
+      <div class="copy-feedback" id="copy-feedback" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <script src="assets/trip-data.js?v=20260723b"></script>
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="assets/trip-map-public-state.js?v=20260723b"></script>
+  <script src="assets/trip-map-public-core.js?v=20260723b"></script>
+  <script>window.TripMapCore.mount({ root: document.getElementById("trip-app"), trip: window.TRIP_DATA });</script>
+</body>
+</html>
