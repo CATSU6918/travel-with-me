@@ -1,10 +1,10 @@
-// Generated from the user's original workbook.
+// Generated from the user's updated workbook and confirmed booking screenshots.
 window.TRIP_DATA = {
   "slug": "us-christmas-before-christmas-2026",
-  "dataRevision": "2026-07-23-a",
+  "dataRevision": "2026-07-24-a",
   "title": "圣诞节前过圣诞 · 美国东海岸13日",
-  "eyebrow": "2026年12月11日—23日 · 首尔转机 / 波士顿 / 缅因州 / 纽约 / 费城 / 华盛顿",
-  "summary": "严格按照原Excel制作的可调整行程地图。原计划中的跨区安排、冬季营业和闭馆冲突均保留，并标注为待复核；地图用于浏览和调整，不替代最终票务与营业确认。",
+  "eyebrow": "2026年12月11日–23日 · 首尔转机 / 波士顿 / 缅因州 / 纽约 / 费城 / 华盛顿",
+  "summary": "按2026年7月24日最新版Excel更新，并写入已确认的三段Amtrak班次与《The Book of Mormon》座位。地图用于浏览与调整；冬季营业、闭馆和跨区耗时仍需在出发前复核。",
   "map": {
     "center": [
       41.2,
@@ -186,9 +186,9 @@ window.TRIP_DATA = {
         42.3489,
         -71.0848
       ],
-      "note": "原表指定的抵达日汉堡。",
+      "note": "抵达第一餐；Double Jack Burger、Bacon Cheeseburger、Avocado Shake。",
       "plan": "作为12月12日午餐。",
-      "tip": "临近出发确认营业时间。",
+      "tip": "人均US$10–20；分量大，一份薯条两人通常够。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Lee's%20Burger%2C%20Boston",
       "mealRole": "local-classic"
@@ -205,9 +205,9 @@ window.TRIP_DATA = {
         42.349,
         -71.0816
       ],
-      "note": "纽伯里街顺路饮品。",
+      "note": "Newbury Street顺路饮品；Brown Sugar Boba、Jasmine Milk Tea、Mango Green Tea。",
       "plan": "午餐或散步后购买。",
-      "tip": "",
+      "tip": "人均US$7–10；不必专程绕路。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Teazzi%20Tea%20Shop%2C%20Boston"
     },
@@ -223,9 +223,9 @@ window.TRIP_DATA = {
         42.3443,
         -71.0984
       ],
-      "note": "抵达日晚餐候选。",
+      "note": "性价比高的地中海晚餐；Chicken Shawarma、Mixed Grill、Falafel。",
       "plan": "体力允许时前往；否则作为外卖或近处晚餐替代。",
-      "tip": "临近出发确认周末营业。",
+      "tip": "人均US$15–20。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Sufra%20Mediterranean%20Food%2C%20Boston",
       "mealRole": "neighborhood-bistro"
@@ -242,9 +242,9 @@ window.TRIP_DATA = {
         42.3394,
         -71.094
       ],
-      "note": "波士顿艺术主锚点。",
-      "plan": "12月13日安排主要参观时段。",
-      "tip": "周日10:00–17:00；特殊展览可能需要时段票。",
+      "note": "12月13日整日艺术主锚点；常规开放时间按最新版Excel记录为10:00–17:00。",
+      "plan": "上午：Art of the Americas → 伦勃朗/透纳 → Monet Gallery；下午：高更 → 中国宋代展厅 → Picasso, Miró, Dalí: Unbound → Naoko Matsubara木刻展。",
+      "tip": "普通门票当天可再次入馆，特展通常不可二次进入。出发前1–2周复核Sargent、日本馆与重点作品是否On View。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Fine%20Arts%20Boston%2C%20Boston",
       "officialUrl": "https://www.mfa.org/visit"
@@ -261,9 +261,9 @@ window.TRIP_DATA = {
         42.3466,
         -71.087
       ],
-      "note": "MFA日前的咖啡与Bagel。",
+      "note": "波士顿经典Bagel补给；Egg Bagel、Everything Bagel、Cold Brew。",
       "plan": "12月13日午间补给。",
-      "tip": "",
+      "tip": "人均US$10–18；作为MFA中场休息。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pavement%20Coffeehouse%20Berklee%2C%20Boston"
     },
@@ -279,9 +279,9 @@ window.TRIP_DATA = {
         42.3495,
         -71.0812
       ],
-      "note": "原表中的波士顿正式晚餐。",
+      "note": "Boston正式海鲜晚餐；Clam Chowder、Lobster Ravioli、Haddock。",
       "plan": "12月13日晚餐。",
-      "tip": "建议提前订位。",
+      "tip": "人均US$60–90；建议预约，可加半打生蚝。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Atlantic%20Fish%20Company%2C%20Boston",
       "fixedTime": true,
@@ -391,9 +391,9 @@ window.TRIP_DATA = {
         42.3725,
         -71.1192
       ],
-      "note": "哈佛日早餐或咖啡。",
+      "note": "Harvard早餐候选；Pistachio Croissant、Shakshuka、Latte。",
       "plan": "12月14日早间。",
-      "tip": "",
+      "tip": "人均US$12–20；若酒店早餐更方便可不折返。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tatte%20Bakery%20%26%20Cafe%20Harvard%20Square%2C%20Boston"
     },
@@ -409,9 +409,9 @@ window.TRIP_DATA = {
         42.3427,
         -71.1006
       ],
-      "note": "原表午餐之一。",
+      "note": "Bánh Mì、Vietnamese Coffee、Honey Toast。",
       "plan": "12月14日午餐，与春记生煎按食量取舍。",
-      "tip": "",
+      "tip": "人均US$12–18；水果饮品较多，优先咖啡与三明治。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Phinista%20Caf%C3%A9%2C%20Boston"
     },
@@ -427,9 +427,9 @@ window.TRIP_DATA = {
         42.355,
         -71.132
       ],
-      "note": "换口味的中式补给。",
+      "note": "生煎、小笼包、酸辣汤。",
       "plan": "12月14日午餐候选。",
-      "tip": "",
+      "tip": "人均US$8–15；作为换口味候选。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chun%20Ji%20Sheng%20Jian%2C%20Boston"
     },
@@ -445,9 +445,9 @@ window.TRIP_DATA = {
         42.3685,
         -71.106
       ],
-      "note": "哈佛日顺路晚餐。",
+      "note": "当地口碑台菜；三杯鸡、椒盐鱿鱼、麻婆豆腐。",
       "plan": "12月14日晚餐。",
-      "tip": "建议提前订位。",
+      "tip": "人均US$25–35。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mu%20Lan%20Taiwanese%20Restaurant%20Cambridge%2C%20Boston",
       "fixedTime": true
@@ -540,9 +540,9 @@ window.TRIP_DATA = {
         43.6591,
         -70.2568
       ],
-      "note": "原表指定的到达日补给点。",
+      "note": "熟龙虾、海鲜和零食补给。",
       "plan": "饿时加入，不作为正式主餐。",
-      "tip": "门店位置和冬季营业需临近确认。",
+      "tip": "人均US$10–20；是补给站，不是正式餐厅。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=ISF%20Trading%2C%20Portland%20ME"
     },
@@ -558,9 +558,9 @@ window.TRIP_DATA = {
         43.6572,
         -70.2509
       ],
-      "note": "原表重点正式晚餐。",
+      "note": "Portland第一推荐；Roasted Mussels、当日鲜鱼、Steak。",
       "plan": "12月15日晚餐。",
-      "tip": "提前订位。",
+      "tip": "人均US$80–120；需提前预约，优先点当天鲜鱼。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fore%20Street%20Restaurant%2C%20Portland%20ME",
       "fixedTime": true,
@@ -615,9 +615,9 @@ window.TRIP_DATA = {
         43.6234,
         -70.2082
       ],
-      "note": "原表海边龙虾卷。",
+      "note": "龙虾卷Flight、Maine Style、Connecticut Style。",
       "plan": "12月16日午餐。",
-      "tip": "餐车具有季节性，12月营业必须复核；可改去Portland室内店。",
+      "tip": "人均US$25–35；建议点Flight，但冬季营业必须复核。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bite%20Into%20Maine%20Fort%20Williams%2C%20Portland%20ME",
       "officialUrl": "https://www.biteintomaine.com/"
@@ -634,9 +634,9 @@ window.TRIP_DATA = {
         43.6567,
         -70.253
       ],
-      "note": "共享小盘晚餐候选。",
+      "note": "Gnocchi、Smoked Carrots、Tuna Crudo。",
       "plan": "12月16日晚餐二选一。",
-      "tip": "建议预约。",
+      "tip": "人均US$50–90；两人建议5–6道分享。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Central%20Provisions%2C%20Portland%20ME"
     },
@@ -652,9 +652,9 @@ window.TRIP_DATA = {
         43.665,
         -70.245
       ],
-      "note": "原表中的高预算正式晚餐候选。",
+      "note": "Tasting Menu、海鲜、Dry-aged Beef。",
       "plan": "12月16日晚餐二选一。",
-      "tip": "周二17:00起营业，建议预约。",
+      "tip": "人均US$120–180+；预算充足再选，需预约。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Twelve%2C%20Portland%20ME",
       "officialUrl": "https://www.twelvemaine.com/"
@@ -690,8 +690,8 @@ window.TRIP_DATA = {
         -71.0552
       ],
       "note": "前往纽约的铁路节点。",
-      "plan": "12月17日15:15左右乘Northeast Regional。",
-      "tip": "建议至少提前45分钟到站。",
+      "plan": "12月17日15:21乘Amtrak前往纽约，建议14:30前到站。",
+      "tip": "已确认班次：15:21–19:38，全程4小时17分。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Boston%20South%20Station%2C%20Boston",
       "fixedTime": true
@@ -729,12 +729,11 @@ window.TRIP_DATA = {
         -73.9935
       ],
       "note": "波士顿抵达和费城出发的铁路节点。",
-      "plan": "12月17日晚抵达；12月20日早间离开。",
-      "tip": {
-        "fixedTime": true
-      },
+      "plan": "12月17日19:38抵达；12月20日11:05乘车前往费城。",
+      "tip": "12月20日建议10:15左右到Moynihan Train Hall候车。",
       "source": "user-workbook",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Moynihan%20Train%20Hall%20at%20Penn%20Station%2C%20New%20York"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Moynihan%20Train%20Hall%20at%20Penn%20Station%2C%20New%20York",
+      "fixedTime": true
     },
     {
       "id": "dumbo",
@@ -803,9 +802,9 @@ window.TRIP_DATA = {
         40.746,
         -73.993
       ],
-      "note": "原表中的油拌面午餐。",
+      "note": "招牌油拌面；Homura Abura Soba、Niku Miso、Karaage。",
       "plan": "12月18日午餐。",
-      "tip": "",
+      "tip": "人均US$20–30；不是汤拉面。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Kajiken%20NYC%2C%20New%20York"
     },
@@ -821,9 +820,9 @@ window.TRIP_DATA = {
         40.765,
         -73.989
       ],
-      "note": "音乐剧日前的泰南菜。",
+      "note": "Bib Gourmand泰南菜；Crab Curry、Baerng Golae、Mango Sticky Rice。",
       "plan": "12月18日早晚餐。",
-      "tip": "预留前往剧院和排队入场时间。",
+      "tip": "人均US$45–70；音乐剧前需严格控制用餐时间。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Chalong%20Southern%20Thai%2C%20New%20York",
       "fixedTime": true
@@ -840,9 +839,9 @@ window.TRIP_DATA = {
         40.7611,
         -73.9856
       ],
-      "note": "《The Book of Mormon》演出场地。",
-      "plan": "12月18日19:00入场观看。",
-      "tip": "具体场次和票务以订单为准。",
+      "note": "《The Book of Mormon》演出场地；票种Regular。",
+      "plan": "2026年12月18日周五19:00演出，座位Orchestra Center M 107。",
+      "tip": "建议18:30前到场，预留安检和找座时间。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Eugene%20O'Neill%20Theatre%2C%20New%20York",
       "fixedTime": true,
@@ -898,9 +897,9 @@ window.TRIP_DATA = {
         40.7595,
         -73.83
       ],
-      "note": "原表中的中餐午餐，名称可能需要复核。",
+      "note": "蟹粉小笼、红烧牛肉面、生煎；Excel记录为“新吉祥”。",
       "plan": "12月19日午餐。",
-      "tip": "确认准确店名和地址后再导航。",
+      "tip": "人均US$20–35；准确店名和位置仍需复核。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=New%20World%20Mall%20Food%20Court%2C%20New%20York"
     },
@@ -916,9 +915,9 @@ window.TRIP_DATA = {
         40.7394,
         -73.9894
       ],
-      "note": "原表中的米其林晚餐。",
+      "note": "Galbi、Sotbap、Dry-aged Beef；正式品鉴晚餐。",
       "plan": "12月19日晚餐。",
-      "tip": "提前一个月预约。",
+      "tip": "人均US$130–180；预算允许可选Chef's Tasting Menu，提前一个月预约。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=JUA%2C%20New%20York",
       "fixedTime": true,
@@ -937,8 +936,8 @@ window.TRIP_DATA = {
         -75.182
       ],
       "note": "费城停留的行李和铁路锚点。",
-      "plan": "12月20日寄存行李，傍晚取回后前往华盛顿。",
-      "tip": "至少预留45分钟取行李和候车。",
+      "plan": "12月20日12:26抵达、寄存行李；17:45前回站取行李，18:36出发。",
+      "tip": "已确认：NYP 11:05–PHL 12:26；PHL 18:36–WAS 20:41。PHL指30th Street Station，不是机场。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=William%20H.%20Gray%20III%2030th%20Street%20Station%2C%20Philadelphia",
       "fixedTime": true
@@ -955,9 +954,9 @@ window.TRIP_DATA = {
         39.9533,
         -75.1593
       ],
-      "note": "Cheesesteak和费城市场体验。",
+      "note": "Cheesesteak、Pretzel、Beiler's Doughnuts。",
       "plan": "12月20日午餐。",
-      "tip": "",
+      "tip": "人均US$15–30；12:26抵达后作为快速午餐，不要只吃Cheesesteak。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Reading%20Terminal%20Market%2C%20Philadelphia"
     },
@@ -1068,12 +1067,11 @@ window.TRIP_DATA = {
         -77.0064
       ],
       "note": "从费城抵达华盛顿的铁路节点。",
-      "plan": "12月20日晚抵达。",
-      "tip": {
-        "fixedTime": true
-      },
+      "plan": "12月20日20:41抵达，随后前往酒店。",
+      "tip": "费城至华盛顿班次已确认，晚间抵达后优先入住。",
       "source": "user-workbook",
-      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Washington%20Union%20Station%2C%20Washington%20DC"
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Washington%20Union%20Station%2C%20Washington%20DC",
+      "fixedTime": true
     },
     {
       "id": "capitol",
@@ -1164,9 +1162,9 @@ window.TRIP_DATA = {
         38.9019,
         -77.0607
       ],
-      "note": "原表指定午餐。",
+      "note": "Chicken & Waffles、Avocado Toast、Brunch。",
       "plan": "12月21日午餐。",
-      "tip": "与Capitol/National Gallery距离较远，注意移动时间。",
+      "tip": "人均US$25–40；热门时段建议预约，但与National Mall存在折返。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Founding%20Farmers%20Fishers%20%26%20Bakers%2C%20Washington%20DC"
     },
@@ -1182,9 +1180,9 @@ window.TRIP_DATA = {
         38.8957,
         -77.0711
       ],
-      "note": "原表指定越南粉晚餐。",
+      "note": "Rare Beef Pho、Beef Ball Pho、Vietnamese Coffee。",
       "plan": "12月21日晚餐。",
-      "tip": "位于河对岸，回酒店前查看交通。",
+      "tip": "人均US$15–20；位于Rosslyn，回酒店前留意交通。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pho%2075%20Rosslyn%2C%20Washington%20DC"
     },
@@ -1219,9 +1217,9 @@ window.TRIP_DATA = {
         38.8865,
         -76.9948
       ],
-      "note": "原表指定老派美式午餐。",
+      "note": "老派美式餐吧；Burger、Buffalo Wings、Reuben。",
       "plan": "12月22日午餐。",
-      "tip": "",
+      "tip": "人均US$18–30。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tune%20Inn%20Restaurant%20%26%20Bar%2C%20Washington%20DC"
     },
@@ -1257,9 +1255,9 @@ window.TRIP_DATA = {
         38.9042,
         -77.0398
       ],
-      "note": "原表中的秘鲁菜正式晚餐。",
+      "note": "秘鲁菜；Ceviche、Grilled Octopus、Lomo Saltado。",
       "plan": "12月22日晚餐。",
-      "tip": "建议提前订位。",
+      "tip": "人均US$35–60；不吃生食可选Lomo Saltado，建议预约。",
       "source": "user-workbook",
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pisco%20y%20Nazca%20Ceviche%20Gastrobar%2C%20Washington%20DC",
       "fixedTime": true
@@ -1798,9 +1796,9 @@ window.TRIP_DATA = {
     {
       "id": "day-7",
       "date": "2026-12-17",
-      "title": "还车、Boston午餐与Amtrak",
+      "title": "还车、Boston午餐与15:21 Amtrak",
       "city": "Boston",
-      "summary": "从Portland回Boston，还车后午餐，15:15左右乘车前往纽约。",
+      "summary": "从Portland回Boston并还车；若Neptune Oyster排队过长则改180 Café或直接进站。15:21从Boston South Station出发，19:38抵达纽约。",
       "capacity": 2,
       "anchors": [
         "south-station"
@@ -1821,14 +1819,14 @@ window.TRIP_DATA = {
         {
           "poiId": "south-station",
           "order": 2,
-          "time": "14:15",
-          "role": "候车"
+          "time": "14:30",
+          "role": "提前到站候车"
         },
         {
           "poiId": "penn-station",
           "order": 0,
-          "time": "19:30",
-          "role": "抵达纽约"
+          "time": "19:38",
+          "role": "Amtrak抵达纽约"
         },
         {
           "poiId": "wingate-lic",
@@ -1855,7 +1853,7 @@ window.TRIP_DATA = {
           "fromPoiId": "south-station",
           "toPoiId": "penn-station",
           "mode": "Amtrak",
-          "label": "Northeast Regional约4小时，班次以车票为准"
+          "label": "已确认：Boston MA 15:21 → New York NY 19:38；全程4小时17分"
         },
         {
           "fromPoiId": "penn-station",
@@ -1870,7 +1868,7 @@ window.TRIP_DATA = {
       "date": "2026-12-18",
       "title": "跨区纽约与晚间音乐剧",
       "city": "New York",
-      "summary": "按原表依次放入DUMBO、Hamilton Grange、MoMA和19:00音乐剧。",
+      "summary": "按Excel保留DUMBO、Hamilton Grange、MoMA与餐厅；19:00在Eugene O’Neill Theatre观看《The Book of Mormon》，座位Orchestra Center M 107。",
       "capacity": 4,
       "anchors": [
         "moma",
@@ -1917,7 +1915,7 @@ window.TRIP_DATA = {
           "poiId": "eugene-oneill",
           "order": 6,
           "time": "19:00",
-          "role": "音乐剧"
+          "role": "音乐剧·已出票"
         }
       ],
       "candidates": [],
@@ -2034,9 +2032,9 @@ window.TRIP_DATA = {
     {
       "id": "day-10",
       "date": "2026-12-20",
-      "title": "纽约—费城—华盛顿",
+      "title": "11:05纽约出发·费城短停·20:41到DC",
       "city": "Philadelphia",
-      "summary": "费城停留期间寄存行李，依次安排市场、Barnes、历史街区，再乘火车去DC。",
+      "summary": "11:05从纽约乘Amtrak，12:26抵达费城；在6小时窗口内完成市场、Barnes和Old City轻量路线，18:36继续前往华盛顿，20:41抵达。",
       "capacity": 4,
       "anchors": [
         "barnes",
@@ -2046,61 +2044,61 @@ window.TRIP_DATA = {
         {
           "poiId": "penn-station",
           "order": 0,
-          "time": "07:00",
-          "role": "纽约出发"
+          "time": "10:15",
+          "role": "提前到站候车"
         },
         {
           "poiId": "phl-station",
           "order": 0,
-          "time": "08:30",
-          "role": "寄存行李"
+          "time": "12:26",
+          "role": "抵达并寄存行李"
         },
         {
           "poiId": "reading-market",
           "order": 1,
-          "time": "09:30",
+          "time": "13:00",
           "role": "市场午餐"
         },
         {
           "poiId": "barnes",
           "order": 2,
-          "time": "11:00",
-          "role": "艺术主锚点"
+          "time": "14:15",
+          "role": "艺术主锚点·需预约"
         },
         {
           "poiId": "independence-hall",
           "order": 3,
-          "time": "14:00",
+          "time": "16:30",
           "role": "外观"
         },
         {
           "poiId": "liberty-bell",
           "order": 4,
-          "time": "14:30",
+          "time": "16:45",
           "role": "自由钟"
         },
         {
           "poiId": "old-city-phl",
           "order": 5,
-          "time": "15:00",
-          "role": "老城"
+          "time": "17:05",
+          "role": "老城短停"
         },
         {
           "poiId": "phl-station",
           "order": 0,
-          "time": "16:30",
+          "time": "17:45",
           "role": "取行李候车"
         },
         {
           "poiId": "union-station-dc",
           "order": 0,
-          "time": "18:30",
-          "role": "抵达DC"
+          "time": "20:41",
+          "role": "Amtrak抵达DC"
         },
         {
           "poiId": "holiday-inn-dc",
           "order": 0,
-          "time": "19:00",
+          "time": "21:15",
           "role": "入住"
         }
       ],
@@ -2110,7 +2108,7 @@ window.TRIP_DATA = {
           "fromPoiId": "penn-station",
           "toPoiId": "phl-station",
           "mode": "Amtrak",
-          "label": "NYP到PHL，具体班次待购票"
+          "label": "已确认：New York NY 11:05 → Philadelphia PA 12:26；全程1小时21分"
         },
         {
           "fromPoiId": "phl-station",
@@ -2152,7 +2150,7 @@ window.TRIP_DATA = {
           "fromPoiId": "phl-station",
           "toPoiId": "union-station-dc",
           "mode": "Amtrak",
-          "label": "PHL到WAS，具体班次待购票"
+          "label": "已确认：Philadelphia PA 18:36 → Washington DC 20:41；全程2小时5分"
         },
         {
           "fromPoiId": "union-station-dc",
